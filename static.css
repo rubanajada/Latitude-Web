@@ -1,0 +1,47 @@
+
+.box-set {
+  position: relative;
+  height: 400px;
+  background: darkgray;
+}
+
+
+.box {
+    min-height: 50px;
+    padding: 5px;
+    margin: 5px;
+    font-weight: 800;
+    background: rgb(111, 194, 197);
+    color:rgb(255, 255, 255);
+    font-size: 25px
+  }
+
+  .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.container {
+    overflow: hidden;
+    margin: 0;
+  
+.col-md-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 10%;
+    max-width: 10%;
+}
+navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+ }
+
+ 
